@@ -3,13 +3,16 @@
 // @namespace    http://tampermonkey.net/
 // @version      0.2
 // @description  在B站评论区添加性别符号
-// @author       你的名字
+// @author       pycv
+// @icon         https://www.bilibili.com/favicon.ico
 // @match        https://www.bilibili.com/*
 // @grant        none
 // @run-at       document-end
+// @downloadURL https://update.greasyfork.org/scripts/526114/Bilibili-Gender.user.js
+// @updateURL https://update.greasyfork.org/scripts/526114/Bilibili-Gender.meta.js
 // ==/UserScript==
 
-(function() {
+(async function() {
     'use strict';
 
     const processedComments = new Set(); // 用于跟踪已处理的评论
