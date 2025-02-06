@@ -1,1 +1,7 @@
-# bilibili-gender
+## release log
+
+**v0.2**
+使用css样式重构性别图标。
+
+**v0.1**
+评论区一级评论添加性别字符。
