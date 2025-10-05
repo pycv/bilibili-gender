@@ -1,11 +1,11 @@
 // ==UserScript==
 // @name         Bilibili-Gender
 // @namespace    http://tampermonkey.net/
-// @version      0.3
+// @version      0.3.1
 // @description  在B站评论区添加性别符号
 // @author       pycv
 // @icon         https://www.bilibili.com/favicon.ico
-// @match        https://www.bilibili.com/*
+// @match        https://www.bilibili.com/video/*
 // @grant        none
 // @run-at       document-end
 // @downloadURL https://update.greasyfork.org/scripts/526114/Bilibili-Gender.user.js
